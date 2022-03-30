@@ -2,7 +2,7 @@
 title: "About Me"
 ---
 
-![](https://yakshaver.org/assets/imgs/remyers_380x380.jpg)
+![](/assets/imgs/myself_circle.png)
 
-pgp: [EE8A 2E07 F8DF C578 4ED7  4D85 63AA A4D9 CE21 C775](https://yakshaver.org/yakshaver_pubkey.asc)
+PGP: [`76AC 83F1 AA14 9FF9 CB1E E8F8 F6B9 4BAC B8DF 2685`](johnny_santos_pubkey.asc)
 
