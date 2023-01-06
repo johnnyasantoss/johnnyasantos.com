@@ -47,12 +47,7 @@ jobs:
         env:
           JEKYLL_ENV: production
       - name: Copy Directory
-        uses: MadaraUchiha/copy-action@7ddff6fc153a2ea2cd0fb88ed9750544c051e399
-        with:
-          # Source file
-          source: .well-known/
-          # Target file
-          target: ./_site
+        run: cp -rv .well-known/ ./_site
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v1
