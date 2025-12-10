@@ -1,0 +1,31 @@
+---
+layout: post
+title: Hello, World!
+date: '2017-02-20 15:38:26'
+category: blog
+lang: pt_BR
+---
+
+
+Olá,
+
+Eu criei este blog, para poder escrever um pouco da minha experiência pessoal, e para contar um pouco dos meus experimentos na área da tecnologia.
+
+Não tenho muita experiência em escrever blogs (nunca tive um), então, peço para que sejam gentis.
+
+Estou aberto para [contatos](/about/) 😀
+
+Este é um pequeno resumo sobre mim:
+
+> Um desenvolvedor, um tanto quanto, sonhador, que é apaixonado por inteligência artificial e todas suas ramificações. Realizador de sonhos nas horas vagas.
+>
+> Eu sou: Autodidata, perfeccionista, detalhista, dinâmico, dedicado, interessado, pró-ativo, comunicativo, simpático, independente, versátil, criativo, comprometido, extrovertido, focado em resultados, adaptável à mudanças, facilidade para trabalho em equipe, líder e realista.
+>
+> Em minha carreira sempre procurei: subtrair as diferenças, entregar o resultado com excelência, trabalhar em equipe e manter-me atualizado.
+>
+> Gosto de desafios, confiança e transparência.
+
+Caso você queira se conectar comigo, [aqui estão meus perfis](/about/)
+
+<!--excerpt init-->
+Out-of-excerpt
