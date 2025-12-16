@@ -1,23 +1,51 @@
-title: Johnny Santos Blog
-description: > # this means to ignore newlines until "baseurl:"
-  Personal web site and blog for whatever I feel like posting.
-# social links
-author: "Johnny Santos"
-email: johnnyadsantos@gmail.com
+title: Johnny Santos
+author:
+  name: "Johnny Santos"
+  email: johnnyadsantos@gmail.com
+description: >
+  Johnny Santos personal blog.
+  Soli Deo Gloria
+
+url: https://johnnyasantos.com
 
 theme: minima
-
-twitter_username: johnnyasantos
-github_username:  johnnyasantoss
-
-# set to false to remove excerpts on the homepage
-show_excerpts: true
-
-minima:
-  date_format: "%Y-%m-%d"
-
-# Minima: custom header links
-header_pages:
-  - about.md
+permalink: pretty
 
 include: [".well-known"]
+exclude:
+  - Dockerfile
+  - justfile
+  - README.md
+
+plugins:
+  - jekyll-feed
+
+sass:
+  quiet_deps: true
+  silence_deprecations: [import]
+
+show_drafts: false
+minima:
+  date_format: "%b-%d-%Y"
+  skin: auto
+  show_excerpts: true
+
+  nav_pages:
+    - about.md
+
+  social_links:
+    - title: Github profile
+      icon: github
+      url: "https://github.com/johnnyasantoss"
+    - title: X (Twitter) profile
+      icon: x-twitter
+      url: "https://x.com/johnnyasantos"
+    - title: Nostr profile
+      icon: globe far
+      fa_namespace: classic
+      url: "https://njump.me/npub1j0nyf54ndc6keq80xfyeqfumn2l23e3k79f33x5jsqxnut6a8dyqp74mu0"
+    - title: Email Me
+      icon: envelope far
+      fa_namespace: classic
+      url: "mailto:johnnysantos@protonmail.com"
+
