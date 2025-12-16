@@ -1,0 +1,23 @@
+title: Johnny Santos Blog
+description: > # this means to ignore newlines until "baseurl:"
+  Personal web site and blog for whatever I feel like posting.
+# social links
+author: "Johnny Santos"
+email: johnnyadsantos@gmail.com
+
+theme: minima
+
+twitter_username: johnnyasantos
+github_username:  johnnyasantoss
+
+# set to false to remove excerpts on the homepage
+show_excerpts: true
+
+minima:
+  date_format: "%Y-%m-%d"
+
+# Minima: custom header links
+header_pages:
+  - about.md
+
+include: [".well-known"]
