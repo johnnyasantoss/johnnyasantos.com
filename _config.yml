@@ -28,7 +28,7 @@ sass:
 show_drafts: false
 minima:
   date_format: "%b-%d-%Y"
-  skin: auto
+  skin: dark
   show_excerpts: true
 
   nav_pages:
