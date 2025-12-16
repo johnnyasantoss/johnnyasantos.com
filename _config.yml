@@ -1,7 +1,7 @@
-title: Johnny Santos
+title: Johnny Santos blog
 author:
   name: "Johnny Santos"
-  email: johnnyadsantos@gmail.com
+  email: johnnysantos@protonmail.com
 description: >
   Johnny Santos personal blog.
   Soli Deo Gloria
@@ -10,6 +10,7 @@ url: https://johnnyasantos.com
 
 theme: minima
 permalink: pretty
+excerpt_separator: <!--more-->
 
 include: [".well-known"]
 exclude:

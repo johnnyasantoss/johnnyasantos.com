@@ -13,7 +13,7 @@ Eu criei este blog, para poder escrever um pouco da minha experiência pessoal, 
 
 Não tenho muita experiência em escrever blogs (nunca tive um), então, peço para que sejam gentis.
 
-Estou aberto para [contatos](/about/) 😀
+Estou aberto para [contatos](/) 😀
 
 Este é um pequeno resumo sobre mim:
 
@@ -25,7 +25,7 @@ Este é um pequeno resumo sobre mim:
 >
 > Gosto de desafios, confiança e transparência.
 
-Caso você queira se conectar comigo, [aqui estão meus perfis](/about/)
+Caso você queira se conectar comigo, [aqui estão meus perfis](/)
 
-<!--excerpt init-->
+<!--more-->
 Out-of-excerpt
