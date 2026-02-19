@@ -9,3 +9,7 @@ vendor/
 
 # Output
 public/
+
+# MacOS stuff
+.DS_Store
+
