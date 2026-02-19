@@ -13,3 +13,5 @@ public/
 # MacOS stuff
 .DS_Store
 
+# AI stuff
+AGENTS.md

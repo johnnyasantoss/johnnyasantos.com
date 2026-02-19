@@ -21,6 +21,11 @@ exclude:
 plugins:
   - jekyll-feed
 
+collections:
+  presentations:
+    output: true
+    permalink: /:collection/:name/
+
 sass:
   quiet_deps: true
   silence_deprecations: [import]
@@ -33,6 +38,7 @@ minima:
 
   nav_pages:
     - about.md
+    - presentations.md
 
   social_links:
     - title: Github profile
