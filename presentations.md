@@ -11,34 +11,35 @@ All materials are shared under [CC-BY-SA 4.0](https://creativecommons.org/licens
 
 ---
 
-## 2025
+{% assign sorted = site.presentations | sort: 'date' | reverse %}
+{% assign years = "" | split: "" %}
 
-### Package Relay & TRUC (v3 transactions)
+{% for p in sorted %}
+  {% assign year = p.name | slice: 0, 4 %}
+  {% unless years contains year %}
+    {% assign years = years | push: year %}
+  {% endunless %}
+{% endfor %}
 
-**Event**: BDL 2nd Cohort - VinteUm  
-**Location**: Florianópolis, Brazil (On-site)  
-**Date**: February 17, 2025
+{% assign years = years | sort | reverse %}
 
-A technical deep dive into the history and development of TRUC (Topologically Restricted Until Confirmation) transactions, formerly known as v3 transactions, and the package relay mechanism. These mempool improvements represent crucial steps forward in Bitcoin's peer-to-peer transaction propagation, enabling more robust and censorship-resistant transaction broadcasting.
+{% for year in years %}
+## {{ year }}
 
-Understanding these protocol enhancements helps us build better tools for those who need Bitcoin the most - the freethinkers and the forgotten who rely on uncensorable money.
+{% for p in sorted %}
+  {% if p.name contains year %}
+### [{{ p.title }}]({{ p.url }})
 
-[Download slides (PDF)](/assets/presentations/package-relay-truc.pdf)
+**Event**: {{ p.event }}  
+**Location**: {{ p.location }}  
+**Date**: {{ p.date | date: "%B %d, %Y" }}
 
----
+{{ p.description }}
 
-## 2024
+{% if p.slides_url %}[Download slides (PDF)]({{ p.slides_url }}){% endif %}
+  {% endif %}
+{% endfor %}
 
-### P2Pool v2 Reboot
-
-**Event**: BDL 2nd Cohort - VinteUm  
-**Location**: Remote  
-**Date**: December 22, 2024
-
-An exploration of the P2Pool protocol revival - why decentralised mining pools matter now more than ever, and how the v2 reboot addresses the fundamental limitations that plagued the original implementation. From coinbase size constraints to orphaned work, we examine how uncle blocks and atomic swaps can create a truly peer-to-peer mining ecosystem.
-
-This work connects to my ongoing contributions to [p2pool-v2](https://github.com/p2poolv2/p2poolv2), where we're building tools to help miners reclaim sovereignty over their hash power. For the deeper technical vision behind this reboot, see Kulpreet Singh's excellent writeup on [rebooting P2Pool for Bitcoin](https://blog.opdup.com/2025/02/04/rebooting-p2pool-for-bitcoin.html).
-
-[Download slides (PDF)](/assets/presentations/p2pool-v2.pdf)
-
----
+{% unless forloop.last %}---
+{% endunless %}
+{% endfor %}

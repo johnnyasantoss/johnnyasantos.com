@@ -2,7 +2,7 @@
 title: Package Relay & TRUC (v3 transactions)
 event: BDL 2nd Cohort - VinteUm Bitcoin Developers
 location: Florianópolis, Brazil (On-site)
-date: 2025-02-17
+date: 2026-02-17
 description: A technical deep dive into the history and development of TRUC transactions and the package relay mechanism. These are crucial steps forward in Bitcoin's peer-to-peer transaction propagation.
 slides_url: /assets/presentations/package-relay-truc.pdf
 license: CC-BY-SA 4.0

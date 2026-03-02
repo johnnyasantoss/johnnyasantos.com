@@ -2,7 +2,7 @@
 title: P2Pool v2 Reboot
 event: BDL 2nd Cohort - VinteUm Bitcoin Developers
 location: Remote
-date: 2024-12-22
+date: 2025-12-22
 description: An exploration of the P2Pool protocol revival. Why decentralised mining pools matter now more than ever, and how the v2 reboot addresses the fundamental limitations that plagued the original implementation.
 slides_url: /assets/presentations/p2pool-v2.pdf
 license: CC-BY-SA 4.0
