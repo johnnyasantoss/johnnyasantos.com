@@ -26,6 +26,13 @@ collections:
     output: true
     permalink: /:collection/:name/
 
+defaults:
+  - scope:
+      path: "_presentations"
+      type: presentations
+    values:
+      layout: post
+
 sass:
   quiet_deps: true
   silence_deprecations: [import]
