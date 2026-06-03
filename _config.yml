@@ -11,7 +11,7 @@ theme: minima
 permalink: pretty
 excerpt_separator: <!--end-excerpt-->
 
-include: [ ".well-known" ]
+include: [".well-known"]
 exclude:
   - Dockerfile
   - justfile
@@ -34,7 +34,7 @@ defaults:
 
 sass:
   quiet_deps: true
-  silence_deprecations: [ import ]
+  silence_deprecations: [import]
 
 show_drafts: false
 minima:
@@ -55,8 +55,7 @@ minima:
       url: "https://x.com/johnnyasantos"
 
     - title: Nostr profile
-      icon: globe far
-      fa_namespace: classic
+      icon: nostr
       url: "https://njump.me/npub1j0nyf54ndc6keq80xfyeqfumn2l23e3k79f33x5jsqxnut6a8dyqp74mu0"
 
     - title: Email Me
