@@ -30,3 +30,7 @@ watch: _build-watcher
 # Opens a shell in the watcher container
 shell:
     docker exec -it blog-watch /bin/bash
+
+# Generates favicon from profile image
+gen-favicon:
+    sips -z 32 32 assets/imgs/myself_circle.png --out assets/favicon.ico
