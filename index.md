@@ -25,10 +25,10 @@ Here are my social links:
 
 ## Keys and Things
 - PGP: [`76AC 83F1 AA14 9FF9 CB1E E8F8 F6B9 4BAC B8DF 2685`](assets/johnny_santos_pubkey.asc)
-- Radicle [`did:key:z6MkunTDNVMUfg3TuMHdLegctCafdjxJNzNPxYFdKNsVDcmc`][radicle-explorer]
+- Radicle [`did:key:z6MkunTDNVMUfg3TuMHdLegctCafdjxJNzNPxYFdKNsVDcmc`][radicle-explorer] (follow with `rad follow did:key:...`)
 
 
-  [radicle-explorer]: https://app.radicle.xyz/nodes/seed.radicle.garden/users/did%3Akey%3Az6MkunTDNVMUfg3TuMHdLegctCafdjxJNzNPxYFdKNsVDcmc
+  [radicle-explorer]: https://rad.johnnyasantos.com/nodes/rad.johnnyasantos.com/users/did:key:z6MkunTDNVMUfg3TuMHdLegctCafdjxJNzNPxYFdKNsVDcmc
   [nostr]: https://usenostr.org/ "What's nostr?"
   [nostr-profile]: https://njump.me/npub1j0nyf54ndc6keq80xfyeqfumn2l23e3k79f33x5jsqxnut6a8dyqp74mu0 "My Nostr public key"
 
