@@ -7,7 +7,7 @@ RUN apt-get update \
 WORKDIR /blog
 VOLUME /blog
 
-COPY Gemfile Gemfile.lock .
+COPY Gemfile Gemfile.lock ./
 RUN bundle install
 
 FROM base AS watcher
@@ -28,8 +28,12 @@ ENTRYPOINT "exec" \
   --port \
   "$PORT" \
   --watch \
-  --force_polling \
+  --drafts \
+  --unpublished \
+  --verbose \
+  --trace \
   --livereload \
+  --livereload-min-delay 1 \
   --livereload-port "$LR_PORT"
 
 FROM base AS builder
