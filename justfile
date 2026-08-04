@@ -34,3 +34,10 @@ shell:
 # Generates favicon from profile image
 gen-favicon:
     sips -z 32 32 assets/imgs/myself_circle.png --out assets/favicon.ico
+
+lint:
+    npx -y markdownlint-cli2@0.23.2 \
+        --config .config/markdownlint.json \
+        _presentations/ \
+        _posts/ \
+        "!./**/wip*"
